@@ -1,11 +1,26 @@
+
+  
+
 .event-list-wrapper {
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/team-office-workers-planning-business-giant-calendar_74855-19912.jpg?t=st=1725543583~exp=1725547183~hmac=c984137e2e6dc4ffe8c680a60fcb7dbd83842bedd024ac5cd8de739be5917606&w=2000');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+    /* width: 100%;
     height: auto;
     background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
   .event-list {
     width: 500px;

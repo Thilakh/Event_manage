@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import FilterBox from "../../components/FilterBox/Filterbox";
+import FilterBox from "../../components/FilterBox/FilterBox"
 import SearchEventList from "../../components/SearchEventList/SearchEventList";
 import Navigation from "../../components/Navigation/Navigation"
 import './FilterEvents.css';
