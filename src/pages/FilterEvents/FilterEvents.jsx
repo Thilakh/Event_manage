@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
-import FilterBox from "../../components/FilterBox/FilterBox";
-import SearchEventList from "../../components/SerachEventList/SearchEventList";
+import FilterBox from "../../components/FilterBox/Filterbox";
+import SearchEventList from "../../components/SearchEventList/SearchEventList";
 import Navigation from "../../components/Navigation/Navigation"
 import './FilterEvents.css';
 const FilterEvents = ()=>{
