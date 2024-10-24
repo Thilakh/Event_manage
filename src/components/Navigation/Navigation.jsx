@@ -16,6 +16,9 @@ const Navigation = ()=>{
             <li>
               <Link to="/signup">SignUp</Link>
             </li>
+            <li>
+              <Link to="/feedback">FeedBack</Link>
+            </li>
         </ul>
     </nav>
   )

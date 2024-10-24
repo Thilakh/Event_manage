@@ -1,0 +1,106 @@
+/* General reset */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* Feedback Form Container */
+  .feedback-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Form Title */
+  .feedback-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Styling */
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Input and Textarea Styling */
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Button Styling */
+  .form-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error and Success Messages */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    font-size: 16px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .feedback-form {
+      padding: 15px;
+    }
+  
+    .feedback-title {
+      font-size: 20px;
+    }
+  
+    .form-button {
+      font-size: 14px;
+    }
+  }
+  
